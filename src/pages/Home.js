@@ -3,19 +3,20 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import EmailIcon from "@material-ui/icons/Email"
 import GitHub from "@material-ui/icons/GitHub"
 import "../styles/Home.css"
+import { Link, useLocation } from "react-router-dom"
+
 
 const Home = () => {
   return(
     <>
-    <div className="home">
+    <div id="home">
       <div className="name">
         <h3> Molly Wolf</h3>     
-          <h2> Full Stack Web Developer</h2>
-  <br></br>
-      <div className="icons">
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHub />
+        <h2> Web Developer</h2>
+        <br></br>
+        <div className="icons">
+          <a href="https://www.linkedin.com/in/mollykwolf/" target="_blank" rel="noopener"><LinkedInIcon  /></a>
+          <a href="https://github.com/mollykwolf" target="_blank" rel="noopener"><GitHub /></a>           
         </div>
       </div>
     </div>
@@ -23,4 +24,5 @@ const Home = () => {
   )
 }
 
+<Link to="/"> Home </Link>
 export default Home
