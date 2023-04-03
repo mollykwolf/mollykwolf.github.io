@@ -4,6 +4,10 @@ import EmailIcon from "@material-ui/icons/Email"
 import GitHub from "@material-ui/icons/GitHub"
 import "../styles/Home.css"
 import { Link, useLocation } from "react-router-dom"
+import About from "./About"
+import Projects from "./Projects"
+// import ProjectDisplay from "./pages/ProjectDisplay"
+import Contact from "./Contact"
 
 
 const Home = () => {

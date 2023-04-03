@@ -19,3 +19,5 @@ export const ProjectList = [
     skills: "Patience", 
   },
 ]
+
+export default ProjectList

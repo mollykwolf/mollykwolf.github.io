@@ -9,15 +9,15 @@
   background-color: #F4F0EC;
 }
 
-.projects h1 {
-  color: #86B3D1;
+#projects h1 {
+  color: #C46210;
 
 }
 .projects .projectTitle {
   text-align: center;
   font-size: 60px;
   font-weight: bolder;
-  color: white;
+  color: #F4F0EC;;
 }
 
 .projectList {
@@ -77,5 +77,5 @@
   .projectItem {
     width: 300px;
     height: 300px;
-    color: #86B3D1;
+    color: #C46210;
   }

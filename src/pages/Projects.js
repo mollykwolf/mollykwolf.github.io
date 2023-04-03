@@ -9,11 +9,11 @@ const Projects = () => {
     <div id="projects">
     <h1> My Personal Projects</h1> 
       <div className="projectList">
-        {/* {ProjectList.map((project, idx) => {
+        {ProjectList.map((project, idx) => {
           return(
             <ProjectItem key={idx} id={idx} name={project.name} image={project.image} />
         )
-        })} */}
+        })}
       </div>
     </div>
     </>
