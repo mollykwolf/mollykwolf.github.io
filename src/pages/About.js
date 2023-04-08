@@ -2,7 +2,6 @@ import React from "react"
 // import HtmlIcon from '@mui/icons-material/Html'
 // import JavascriptIcon from '@mui/icons-material/Javascript';
 import "../styles/About.css"
-// import Pr from "../assets/pro3.png" 
 import Hi from "../assets/hi.png"
 
 
