@@ -10,16 +10,12 @@ const About = () => {
   return(
     <>
      <div id="about">
-        <div className="title"> 
-          <h1>About</h1>
-        </div>
+        <h1>About</h1>
         <div id="me">
           <p> Becoming a software developer has been an incredible journey that has equipped me with valuable skills and opened up exciting opportunities. I have experience in multiple programming languages, including JavaScript, React, Ruby, Rails, and Postgres. I am driven to continue learning and improving my skills.  My goal is to develop sustainable and responsible technology solutions that benefit society and the environment. 
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
-          Languages 
+            Languages 
             <br></br>
             <br></br>
             Front-End:JavaScprit, React, Jest, Slim, JQuery 
@@ -30,29 +26,6 @@ const About = () => {
           </p>
           <img src={Hi} alt="My Image" width="800" height="800" ></img>
         </div>
-      {/* <div className="languages">
-        <h3> Languages </h3>
-        <ol className="list">
-          <ol className="item">
-            <h2> Front-End</h2>
-            <div className="examples">
-          HTML, CSS, JavaScprit, React, Jest, Slim, Jquery 
-            </div>
-          </ol>
-          <ol className="item">
-            <h2>Back-End</h2>
-            <div className="examples">
-             Ruby, Rails, Postgres, RSpec
-            </div>
-          </ol>
-          <ol className="item">
-            <h2>General</h2>
-            <div className="examples">
-             GitHub 
-            </div>
-          </ol>
-        </ol>
-      </div> */}
     </div>
     </>
   )

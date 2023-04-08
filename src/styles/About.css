@@ -1,70 +1,35 @@
 #about {
   background-color: #F4F0EC;
   width: 100%;
-  height: 100vh;
-  margin-top: 50px;
-
+  height: 100%;
+  display: flex;
+  margin: 0 100px 0 200px;
 }
 
-.title {
-    font-family: "Arial", sans-serif;
-    display: flex;
-    justify-content: left;
+#about h1 {
     color: #C46210;
-    padding-left: 80px;
-    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: left;   
+  }
+  
+  #me{
+    color: #98817B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 250px;
   }
 
   #me p {
-    display: flex;
-    justify-content: end;
-    align-items: center; 
     font-family: "Arial", sans-serif;
-    color: #98817B;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
     font-size: 25px;
-    width: 600px;
-  
-  }
-
-  /* .languages h3 {
-    font-family: "Arial", sans-serif;
-    display: flex;
-    justify-content: center;
-    color: #86B3D1;
-    font-size: 40px;
-  }
-
-  .item h2 {
-    font-family: "Arial", sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-left: 0px;
-    padding-right: 90px;
-    color: #86B3D1;
-    font-size: 30px;
-  }
-
-  .examples {
-    font-family: "Arial", sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-left: 0px;
-    padding-right: 90px;
-    color: #86B3D1;
-    font-size: 30px;
-  } */
-
-  #me {
-    display: inline-block;
-    padding-right: 50px;
-    padding-right: 0;
-    display: flex;
-    /* align-items: center;  */
-    margin-right: 40px;
-    margin-bottom: 70px;
   }
   
+ 
+
 

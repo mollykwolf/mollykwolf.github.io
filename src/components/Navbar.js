@@ -24,14 +24,14 @@ const Navbar = () => {
         </button>
       </div>
       <div className="links">
-        <Link to="/"> Home </Link>
-        {/* <a href="#home">Home</a> */}
-        <Link to="/about"> About</Link>
-        {/* <a href="#about">About</a> */}
-        {/* <a href="#projects">Projects</a> */}
-        {/* <a href="#contact">Contact Me</a> */}
-        <Link to="/projects"> Projects </Link>
+        {/* <Link to="/"> Home </Link> */}
+        <a href="#home">Home</a>
+        {/* <Link to="/about"> About</Link> */}
+        <a href="#about">About</a>
+        {/* <Link to="/projects"> Projects </Link> */}
+        <a href="#projects">Projects</a>
         {/* <Link to="/contact"> Contact </Link> */}
+        {/* <a href="#contact">Contact Me</a> */}
       </div>
     </div>
   )

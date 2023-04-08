@@ -7,7 +7,7 @@ const Projects = () => {
   return(
     <>
     <div id="projects">
-    <h1> My Personal Projects</h1> 
+    <h2> Projects</h2> 
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return(

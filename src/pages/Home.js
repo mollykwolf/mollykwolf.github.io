@@ -23,6 +23,8 @@ const Home = () => {
           <a href="https://github.com/mollykwolf" target="_blank" rel="noopener"><GitHub /></a>           
         </div>
       </div>
+      <About />
+      <Projects />
     </div>
     </>
   )
