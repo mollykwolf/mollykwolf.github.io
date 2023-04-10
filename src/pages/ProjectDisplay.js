@@ -7,6 +7,8 @@ import "../styles/ProjectDisplay.css"
 const ProjectDisplay = () => {
   const { id } = useParams ()
   const project = ProjectList[id]
+  // const handleSubmit = () => {
+  //   navigate("/#projects")
   return (
     <div className="project">
       <h1> {project.name}</h1>
@@ -15,6 +17,7 @@ const ProjectDisplay = () => {
         <b>Skills:</b> {project.skills} 
       </p>
       <GitHubIcon />
+      <a href="http://localhost:3000/#projects"><button>Back to Project Page</button></a>
     </div>
   
   )

@@ -6,15 +6,15 @@ export const ProjectList = [
   {
     name: "Movie Scout", 
     image: Pro1,
-    skills: "JavaScript, React",
+    skills: "JavaScript, React, Bootstrap, CSS",
   }, 
   {
     name: "Pig Latin", 
     image: Pro2,
-    skills: "JavaScript",
+    skills: "JavaScript, Pair Programming",
   },
   {
-    name: "Place Holder", 
+    name: "Coming Soon", 
     image: Pro3,
     skills: "Patience", 
   },

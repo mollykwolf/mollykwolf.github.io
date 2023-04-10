@@ -26,5 +26,12 @@
 
 .project svg {
   font-size: 40px;
-  color: #C46210;;
+  color: #C46210;
+}
+
+button{
+  background-color: #C46210;
+  font-size: 25px;
+  color: #F4F0EC;
+  margin-top: 30px;
 }
