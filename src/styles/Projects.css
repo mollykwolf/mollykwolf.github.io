@@ -58,7 +58,6 @@ margin: 0 100px 0 200px; */
   cursor: pointer;
 }
 
-/* this is on on the project page */
 .projectItem .bgImage {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -70,22 +69,9 @@ margin: 0 100px 0 200px; */
 }
 
 .projectItem h1 {
-  font-size: 25px;
-  
-  
+  font-size: 25px; 
 }
 
-/* @media only screen and (max-width: 1300px) {
-  .projectList {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
-    grid-template-columns: 1fr;
-  }
-} */
   .projectItem {
     width: 300px;
     height: 300px;

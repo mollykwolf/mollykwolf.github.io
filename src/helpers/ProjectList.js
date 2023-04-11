@@ -6,7 +6,7 @@ export const ProjectList = [
   {
     name: "Movie Scout", 
     image: Pro1,
-    skills: "JavaScript, React, Bootstrap, CSS",
+    skills: "JavaScript, React, Bootstrap, SCSS, Ruby, Devise",
   }, 
   {
     name: "Pig Latin", 
