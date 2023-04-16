@@ -12,7 +12,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="main">
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home  />} />
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
   ) 
