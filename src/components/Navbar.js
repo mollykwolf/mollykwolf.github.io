@@ -24,9 +24,9 @@ const Navbar = () => {
         </button>
       </div>
       <div className="links">
-        {/* <Link to="/"> Home </Link> */}
-        <a href="#home">Home</a>
-        {/* <Link to="/about"> About</Link> */}
+        <Link to="/"> Home </Link>
+        {/* <a href="#">Home</a> */}
+        {/* <Link to="about"> About</Link> */}
         <a href="#about">About</a>
         {/* <Link to="/projects"> Projects </Link> */}
         <a href="#projects">Projects</a>
