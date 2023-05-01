@@ -7,11 +7,11 @@ import "../styles/Footer.css"
 const Footer = () => {
   return( 
     <div className="footer">
-      <div className="socialMedia">
-        <LinkedInIcon />
-        <GitHubIcon />
-      </div>
-      <p> &copy; Molly Wolf | 2023 </p>
+      {/* <div className="socialMedia"> */}
+        {/* <LinkedInIcon />
+        <GitHubIcon /> */}
+      {/* </div> */}
+      <p> &copy; Molly Wolf | 2023 | <GitHubIcon /> |   <LinkedInIcon /> </p>
     </div>
   )
 }

@@ -17,10 +17,10 @@ margin: 0 100px 0 200px; */
 #projects h2 {
   color: #C46210;
   font-family: "Arial", sans-serif;
-  font-size: 50px;
+  font-size: 37x;
   display: flex;
   justify-content: left; 
-  margin-left: 15%;  
+  margin-left: 5%;  
 
 }
 .projects .projectTitle {
