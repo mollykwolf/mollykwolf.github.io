@@ -17,6 +17,11 @@
   /* color: #AF6E4D; */
 }
 
+.contact {
+  flex-direction: row; 
+  flex-wrap: nowrap 
+}
+
 .navbar a {
   color: #98817B;
   text-decoration: none;
