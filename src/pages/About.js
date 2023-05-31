@@ -4,27 +4,54 @@ import React from "react"
 import "../styles/About.css"
 import Hi from "../assets/hi.png"
 
+{/* <div class="container">
+  <div class="left-side">
+    <p>This is a paragraph.</p>
+  </div>
+  <div class="right-side">
+    <img src="path_to_your_image.jpg" alt="Image">
+  </div>
+</div> */}
+
 
 const About = () => {
   return(
     <>
-     <div id="about">
-        <h1>About</h1>
-        <div id="me">
-          <p> Becoming a software developer has been an incredible journey that has equipped me with valuable skills and opened up exciting opportunities. I have experience in multiple programming languages, including JavaScript, React, Ruby, Rails, and Postgres. I am driven to continue learning and improving my skills.  My goal is to develop sustainable and responsible technology solutions that benefit society and the environment. 
-            <br></br>
-            <br></br>
-            Languages 
-            <br></br>
-            <br></br>
-            Front-End:JavaScprit, React, Jest, Slim, JQuery 
-            <br></br>
-            Back-End: Ruby, Rails, Postgres, RSpec
-            <br></br>
-            General: Github, Microsoft Excel
+    <div id="about">
+      <h1>About</h1>
+      <div class="container">
+        <div class="left-side">
+          <p> Hey there! Thanks for dropping by and welcome to my portfolio! 🌟 I'm thrilled to share my journey as a software developer with you. Completing the LEARN Academy's intensive four-month bootcamp has been nothing short of amazing. It has equipped me with valuable skills and opened up a world of exciting opportunities.I am driven to continue learning and improving my skills.  My goal is to develop sustainable and responsible technology solutions that benefit society and the environment. 
           </p>
-          <img src={Hi} alt="My Image" width="800" height="800" ></img>
+        </div>  
+        <div class="right-side">
+          <img src={Hi} alt="My Image" width="400" height="150" ></img> 
         </div>
+        </div>  
+      {/* <h3>Languages </h3> */}
+      <div id="languages"> 
+       <div>
+        <h4>Front-End:</h4>
+        <p>JavaScprit</p>
+        <p>React,</p>
+        <p>Jest,</p>
+        <p>Slim,</p>
+        <p>JQuery</p>
+      </div>
+      <div>
+        <h4>Back-End:</h4>
+        <p>Ruby,</p>
+        <p>Rails,</p>
+        <p>Postgres,</p>
+        <p>RSpec</p>
+      </div>
+      <div>
+        <h4>General:</h4>
+        <p>Github,</p>
+        <p>Microsoft Excel</p>
+      </div>
+    </div>   
+      {/* <img src={Hi} alt="My Image" width="600" height="450" ></img> */}
     </div>
     </>
   )

@@ -8,6 +8,8 @@ import About from "./About"
 import Projects from "./Projects"
 // import ProjectDisplay from "./pages/ProjectDisplay"
 import Contact from "./Contact"
+import Hi from "../assets/hi.png"
+
 
 
 const Home = () => {
@@ -22,6 +24,9 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/mollykwolf/" target="_blank" rel="noopener"><LinkedInIcon  /></a>
           <a href="https://github.com/mollykwolf" target="_blank" rel="noopener"><GitHub /></a>           
         </div>
+        <div>
+        {/* <img src={Hi} alt="My Image" width="400" height="400" ></img> */}
+      </div>
       </div>
       <About />
       <Projects />

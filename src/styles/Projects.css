@@ -1,10 +1,12 @@
 #projects {
+  margin-top: 3%;
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
   /* height: 100%; */
   background-color: #F4F0EC;
   display: flex;
   flex-direction: column;
+  /* padding-right: 20%; */
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -17,7 +19,7 @@ margin: 0 100px 0 200px; */
 #projects h2 {
   color: #C46210;
   font-family: "Arial", sans-serif;
-  font-size: 37x;
+  font-size: 30px;
   display: flex;
   justify-content: left; 
   margin-left: 5%;  
@@ -25,7 +27,7 @@ margin: 0 100px 0 200px; */
 }
 .projects .projectTitle {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
   color: #F4F0EC;
 }
@@ -35,8 +37,11 @@ margin: 0 100px 0 200px; */
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  margin-left: 17%;
+  place-items: center;  
+  margin-left: 10%;
+/* margin-bottom: 0; */
+  /* margin-right: 20%; */
+
   /* height: auto; */
   
 }
