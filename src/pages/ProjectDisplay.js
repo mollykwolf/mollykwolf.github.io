@@ -17,7 +17,7 @@ const ProjectDisplay = () => {
         <b>Skills:</b> {project.skills} 
       </p>
       <GitHubIcon />
-      <a href="http://localhost:3000/#projects"><button>Back to Project Page</button></a>
+      <a href="https://mollykwolf.github.io/#projects"><button>Back to Project Page</button></a>
     </div>
   
   )
