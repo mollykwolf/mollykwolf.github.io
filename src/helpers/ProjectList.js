@@ -14,9 +14,9 @@ export const ProjectList = [
     skills: "JavaScript, Pair Programming",
   },
   {
-    name: "Coming Soon", 
+    name: "Tic-Tac-Toe", 
     image: Pro3,
-    skills: "Patience", 
+    skills: "React, JavaScript, functional components, props, state, hooks, HTML, and CSS", 
   },
 ]
 
