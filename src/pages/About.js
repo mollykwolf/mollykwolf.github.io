@@ -33,21 +33,23 @@ const About = () => {
        <div>
         <h4>Front-End:</h4>
         <p>JavaScprit</p>
-        <p>React,</p>
-        <p>Jest,</p>
-        <p>Slim,</p>
-        <p>JQuery</p>
+        <p>React</p>
+        <p>Jest</p>
+        <p>Slim</p>
+        <p>jQuery</p>
       </div>
       <div>
         <h4>Back-End:</h4>
-        <p>Ruby,</p>
-        <p>Rails,</p>
-        <p>Postgres,</p>
+        <p>Ruby on Rails</p>
+        <p>Rails</p>
+        <p>Postgres/PostgresSQL</p>
         <p>RSpec</p>
       </div>
       <div>
         <h4>General:</h4>
-        <p>Github,</p>
+        <p>Github/Git</p>
+        <p>Trello</p> 
+        <p>Figma</p>
         <p>Microsoft Excel</p>
       </div>
     </div>   
